@@ -1,0 +1,17 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"config\\" : "src/main/php/config/",
+			"controllers\\" : "src/main/php/controllers/",
+			"dao\\" : "src/main/php/dao/",
+			"domain\\" : "src/main/php/domain/",
+			"repositories\\" : "src/main/php/repositories/",
+			"util\\" : "src/main/php/util/",
+			"views\\" : "src/main/php/views/"
+		}
+	},
+	"require-dev": {
+    	"heroku/heroku-buildpack-php": "*",
+		"phpunit/phpunit": "6.4.*"
+  	}
+}
